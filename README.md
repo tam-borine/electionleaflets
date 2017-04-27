@@ -26,6 +26,9 @@ This should do the trick on macOS with Homebrew:
 ```shell
 deactivate ; brew install python node postgresql postgis redis yarn
 ```
+We're using virtualenv for dependency versions. Install it with
+`pip install virtualenv` or 
+`conda install virtualenv` if you use Anaconda
 
 1. Create python virtual environment
 ```shell
